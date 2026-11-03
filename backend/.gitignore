@@ -1,0 +1,64 @@
+# =====================================
+# BACKEND - PYTHON / FASTAPI
+# =====================================
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing and coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# Temporary files
+temp_workspace/
+tmp/
+temp/
+*.pdf
+
+# =====================================
+# ENVIRONMENT VARIABLES - SECURITY
+# =====================================
+
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Allow example environment files
+!.env.example
+!**/.env.example
+
+# =====================================
+# IDE / EDITOR
+# =====================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =====================================
+# OPERATING SYSTEM
+# =====================================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =====================================
+# MISCELLANEOUS
+# =====================================
+
+*.pem
+*.log
