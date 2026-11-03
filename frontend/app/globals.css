@@ -1,0 +1,5 @@
+/* Import Tailwind CSS core */
+@import "tailwindcss";
+
+/* Enable the beautiful typography and markdown table styles */
+@plugin "@tailwindcss/typography";
