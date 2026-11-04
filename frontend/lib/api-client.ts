@@ -1,5 +1,3 @@
-// lib/api-client.ts
-
 // Fetch the backend URL from environment variables. 
 // Using NEXT_PUBLIC_ ensures this variable is accessible in the browser (client-side).
 const rawBaseUrl = process.env.NEXT_PUBLIC_BACKEND_URL || "http://127.0.0.1:8000";
